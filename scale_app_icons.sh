@@ -18,8 +18,6 @@ if [[ ! -d $output_directory ]]; then
     exit 1
 fi
 
-mkdir -p $output_directory
-
 gm convert -resize '40x40' $input_file   $output_directory/icon-40.png 
 gm convert -resize '80x80' $input_file   $output_directory/icon-40@2x.png
 gm convert -resize '120x120' $input_file $output_directory/icon-40@3x.png
