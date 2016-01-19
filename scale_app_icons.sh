@@ -33,3 +33,4 @@ gm convert -resize '152x152' "${input_file}" "${output_directory}/icon-76@2x.png
 gm convert -resize '29x29' "${input_file}"   "${output_directory}/icon-29.png"
 gm convert -resize '58x58' "${input_file}"   "${output_directory}/icon-29@2x.png"
 gm convert -resize '87x87' "${input_file}"   "${output_directory}/icon-29@3x.png"
+gm convert -resize '167x167' "${input_file}"   "${output_directory}/icon-83.5@3x.png"
